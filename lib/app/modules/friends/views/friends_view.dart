@@ -52,7 +52,7 @@ class FriendsView extends GetView<FriendsController> {
        foregroundImage: NetworkImage('https://upload.wikimedia.org/wikipedia/commons/2/20/20220121%E2%80%94Tzuyu_Campaign_Film%2C_Pearlygates_x_Twice_2022.jpg',
        ),
        ),
-       ),
+       ), 
               ],
               ),
               ),

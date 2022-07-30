@@ -64,7 +64,7 @@ class ProfileView extends GetView<ProfileController> {
         const SizedBox(width: 5,),
        const Icon(Icons.logout_outlined,color: Colors.grey,size: 30,),
       ],
-    ),
+    ), 
       ),
               ],
               ),

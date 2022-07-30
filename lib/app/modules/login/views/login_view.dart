@@ -54,7 +54,7 @@ class LoginView extends GetView<LoginController> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children:  [
-            context.isPhone?
+            context.isPhone? 
             Column(
             // crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.center,

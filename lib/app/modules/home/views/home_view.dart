@@ -74,7 +74,7 @@ class HomeView extends GetView<HomeController> {
                      SizedBox(
                        height: Get.height * 0.3,
                        child: 
-                      
+                       
                        Column(
                          crossAxisAlignment: CrossAxisAlignment.start,
                          children: [

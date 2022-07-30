@@ -10,7 +10,7 @@ import '../controllers/task_controller.dart';
 
 class TaskView extends GetView<TaskController> {
  final GlobalKey<ScaffoldState> _drawerKey = GlobalKey();
-  @override
+  @override 
   Widget build(BuildContext context) {
     return Scaffold(
       key: _drawerKey,
@@ -150,7 +150,7 @@ class TaskView extends GetView<TaskController> {
             margin: !context.isPhone? EdgeInsets.zero :  EdgeInsets.only(left:150,right: 150),
             height: Get.height,
           decoration: BoxDecoration(borderRadius: BorderRadius.only(topLeft: Radius.circular (20), topRight: Radius.circular (20)),
-          color: Colors.white
+          color: Colors.white,
           ),
           ),
           );
